@@ -1,0 +1,10 @@
+@import './utils';
+@import './calendar';
+@import './reset';
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
