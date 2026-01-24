@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: orange;
+    }
+
+    .container {
+        height: 370px;
+        width: 270px;
+        background-color: white;
+        padding: 30px;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+
+        a {
+            text-align: start;
+            font-size: 12px;
+        }
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+
+        img {
+            height: max-content;
+            width: 80px;
+        }
+
+        button {
+            background-color: #CC0C39;
+            border: none;
+            padding: 8px;
+            color: white;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+        h5 {
+            color: #CC0C39;
+            margin-left: 2px;
+            font-size: 11px;
+            width: 80px;
+        }
+    }
+
+    .flex_1 {
+        display: flex;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <h3>Ofertas melhores avaliadas</h3>
+
+        <div class="flex">
+            <img src="https://m.media-amazon.com/images/I/41RpmPYWXLL._AC_SY145_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/71YOp9GJX2L._AC_SY145_.jpg" alt="">
+        </div>
+
+        <div class="flex_1">
+            <div class="flex">
+                <button>31% off</button>
+                <h5>Menor preço em 365 dias</h5>
+            </div>
+
+            <div class="flex">
+                <button>41% off</button>
+                <h5>Oferta</h5>
+            </div>
+        </div>
+
+
+
+        <div class="flex">
+            <img src="https://m.media-amazon.com/images/I/41Q67osptYL._AC_SY145_.jpg" alt="">
+            <img src="https://m.media-amazon.com/images/I/61IrpNfTEZL._AC_SY145_.jpg" alt="">
+        </div>
+       <div class="flex_1">
+            <div class="flex">
+                <button>31% off</button>
+                <h5>Menor preço em 365 dias</h5>
+            </div>
+
+            <div class="flex">
+                <button>31% off</button>
+                <h5>Menor preço em 365 dias</h5>
+            </div>
+        </div>
+
+        <a href="#">Ver mais</a>
+    </div>
+
+</body>
+
+</html>
